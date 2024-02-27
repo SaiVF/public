@@ -1,0 +1,72 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	
+	color: #000;
+}
+h1 {
+	
+}
+h2 {
+	
+	font-weight: bold;
+}
+table {
+	text-transform: uppercase;
+	table-layout: auto;
+}
+td {
+  /*border: 1px solid red;*/
+}
+
+.header, .content, .footer {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.header {
+	background-color: #135f9c;
+}
+.header img {
+	display: block;
+	max-width: 180px;
+	margin: 0 auto;
+}
+.footer {
+	text-align: center;
+	background-color: #dcddde;
+	color: #676a6c;
+	font-size: 16px;
+}
+.content {
+	color: #9d9fa2;
+}
+.content p {
+	font-size: 14px;
+}
+.content .btn {
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	background-color: #135f9c;
+	padding: 10px 12px;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: 0 auto;
+}
+.content .link {
+	text-decoration: underline;
+	color: #15c;
+	font-size: 14px;
+}
+.solicitud .title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #9d9fa2;
+}
+.footer p {
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+	margin-bottom: 0;
+}
